@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgBackDoorRightS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M13.22 2q.68 0 1.3.21l1.54.52c.57.19.95.72.95 1.32v9.74l3.85 3.68-.35.36-.35.36-4-3.83-.15-.15V4.05a.4.4 0 0 0-.27-.38l-1.53-.5a3 3 0 0 0-.99-.17h-2.04q-.44 0-.85.12L8.3 3.7a.4.4 0 0 0-.29.38L8 18l.01 2.7c0 .72.58 1.3 1.3 1.3h5.4c.72 0 1.3-.58 1.3-1.3L16 18h1l.01 2.7a2.3 2.3 0 0 1-2.3 2.3h-5.4a2.3 2.3 0 0 1-2.3-2.3L7 18l.01-13.92c0-.62.41-1.17 1.01-1.34l2.03-.58Q10.61 2 11.18 2z"
+    />
+    <path fill="currentColor" d="M15.01 18v1h-6v-1zm0-9v1h-6V9z" />
+  </svg>
+);
+export default SvgBackDoorRightS;
